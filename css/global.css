@@ -1,0 +1,19 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500;1,700;1,900&display=swap');
+
+@import url(/css/header.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white: #fff;
+    --black: #1f1d1d;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
