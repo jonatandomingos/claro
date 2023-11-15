@@ -1,6 +1,169 @@
 
 
 .ofertas{
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blacktotal);
+
+}
+.texto-ofertas{
+    display: flex;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+.texto-ofertas h2{
+    font-size: 30px;
+    color: var(--white);
+    padding-bottom: 20px;
+}
+.containers{
+    display: flex;
+
+}
+.container-ofertas{
+    display: flex;
+    height: 250px;
+    width: 300px;
+    height: auto;
+    background-color: black;
+    margin-left: 60px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-bottom: 40px;
+}
+.itens-ofertas{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+.itens-ofertas i{
+    font-size: 30px;
+    color: white;
+}
+.itens-ofertas h4{
+    font-size: 20px;
+    color: white;
+
+
+}
+.itens-ofertas span{
+    color: white;
+}
+.itens-ofertas button{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+
+}
+.sub-titulo h2{
+    padding-left: 60px;
+    font-size: 30px;
+    color: white;
+}
+
+/*  */
+.container2{
+    display: flex;
+}
+.itens-container2{
+    display: flex;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+.itens{
+    height: 500px;
+    width: 300px;
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.itens h4,
+.itens2 h4{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.itens span,
+.itens2 span{
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+
+}
+.icones-redesocial{
+    display: flex;
+    flex-direction: column;
+}
+.icones-redesocial span{
+    font-weight: 700;
+}
+
+.Whatsaap, .carro,
+.muisc{
+    display: flex;
+    column-gap: 10px;
+}
+.Whatsaap i,
+.carro i,
+.music i, 
+.instagram i,
+.facebook i,
+.twitter i{
+    font-size: 20px;
+    color: white;
+}
+
+.preço{
+    display: flex;
+    flex-direction: column;
+}
+.preço h5{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+
+}
+.preço strong{
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+}
+.preço p{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+}
+.btn-contratar{
     display: flex;
     
+}
+.btn-contratar button{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffc772;
+
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+.btn-contratar button:hover{
+    background-color: #fb9c2d;
 }
