@@ -10,7 +10,8 @@
 @import url(/css/banda-larga.css);
 @import url(/css/claro-tv.css);
 @import url(/css/vantagens.css);
-
+@import url(/css/beneficio.css);
+@import url(/css/compre.css);
 
 *{
     margin: 0;

@@ -1,0 +1,38 @@
+
+.beneficio{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blacktotal);
+    padding-bottom: 50px;
+}
+.beneficio h2{
+    font-size: 30px;
+    padding-left: 60px;
+    color: var(--white);
+    padding-bottom: 20px;
+
+}
+.ativaçao{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+    width: 90%;
+    background-color: var(--blacktotal);
+    border-radius: 8px;
+    
+    border: 1px solid var(--white);
+    margin-bottom: 20px;
+}
+.ativaçao span{
+    font-size: 18px;
+    color: var(--white);
+    font-weight: 700;
+}
+.ativaçao i{
+    font-size: 18px;
+    color: var(--white);
+    font-weight: 700;
+
+}
