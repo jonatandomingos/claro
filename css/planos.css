@@ -1,0 +1,163 @@
+
+.planos{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blacktotal);
+   
+
+}
+.titulo-planos{
+    display: flex;
+    padding-left: 60px;
+}
+.titulo-planos h2{
+    font-size: 30px;
+    color: var(--white);
+    padding-bottom: 20px;
+}
+.container-planos{
+    display: flex;
+    margin-left: 60px;
+    column-gap: 20px;
+    
+
+}
+.itens-plano{
+    display: flex;
+    height: auto;
+    width: auto;
+    border: none;
+    background-color: black;
+    border-radius: 10px;
+    border:  1px solid white;
+    margin-bottom: 80px;
+
+}
+.info-plano{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.imagens-plano{
+    display: flex;
+}
+.imagens-plano img{
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    
+    height: 50px;
+    width: 300px;
+    
+}
+.giga{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.giga span{
+    display: flex;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+.giga p{
+    font-size: 16px;
+    color: white;
+}
+.giga h4{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.redes-social{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.tiktok{
+    display: flex;
+}
+.tiktok i{
+    font-size: 20px;
+    color: var(--white);
+}
+.tiktok span{
+    color: var(--white);
+}
+.Whatsaap span,
+.instagram,
+.facebook span,
+.twitter span,
+.carro span{
+    color: var(--white);
+}
+.preço{
+    display: flex;
+    padding-left: 10px;
+}
+.preço span{
+    color: var(--white);
+}
+.preço h4{
+    font-size: 18px;
+    color: var(--white);
+    padding-bottom: 10px;
+}
+.preço p{
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.btns-plano{
+    display: flex;
+    padding-left: 10px;
+}
+.btns-plano button{
+    height: 40px;
+    width: 120px;
+
+    font-size: 16px;
+    color: var(--black);
+
+    border: none;
+    border-radius: 20px;
+    background-color: #ffc772;
+    cursor: pointer;
+    transition: all .2s;
+}
+.btns-plano button:hover{
+    background-color: #b84d01;
+}
+/* PASSAPORTE */
+.passaporte{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: auto;
+    background-color: var(--blacktotal);
+    border: 1px solid var(--white);
+    border-radius: 4px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+.titulo-passaporte{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.titulo-passaporte h2{
+    font-size: 18px;
+    color: var(--white);
+}
+.icone{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.icone i{
+    font-size: 30px;
+    color: var(--white);
+}
