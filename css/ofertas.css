@@ -69,7 +69,7 @@
     color: white;
 }
 
-/*  */
+/* conatiner 2 */
 .container2{
     display: flex;
 }
@@ -103,6 +103,7 @@
     color: white;
 
 }
+/* redes sociais */
 .icones-redesocial{
     display: flex;
     flex-direction: column;
@@ -125,7 +126,7 @@
     font-size: 20px;
     color: white;
 }
-
+/* preço */
 .preço{
     display: flex;
     flex-direction: column;
@@ -146,6 +147,7 @@
     color: white;
     font-weight: 700;
 }
+/* btn butttom */
 .btn-contratar{
     display: flex;
     
@@ -162,7 +164,6 @@
     cursor: pointer;
     transition: .2s;
 }
-
 
 .btn-contratar button:hover{
     background-color: #fb9c2d;
