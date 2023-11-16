@@ -1,0 +1,206 @@
+
+.smartphones{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blacktotal);
+    padding-bottom: 80px;
+}
+/* TITULO  */
+.titulo-smartphones{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+
+}
+.titulo-smartphones h2{
+    font-size: 30px;
+    color: var(--white);
+}
+.titulo-smartphones p{
+    font-size: 18px;
+    color: var(--white);
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+/* container celular */
+.container-celular{
+    display: flex;
+    column-gap: 20px;
+    margin-left: 60px;
+    padding-bottom: 60px;
+}
+.itens-celular{
+    display: flex;
+    flex-direction: column;
+}
+.imagens-celular{
+    display: flex;
+}
+.imagens-celular img{
+    height: 300px;
+}
+.modelos{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 296px;
+    background-color: var(--blacktotal);
+    border: 1px solid var(--white);
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: all .2s;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.modelos:hover{
+    height: 150px;
+    width: 296px;
+    background-color: red;
+    
+    border: 1px solid var(--white);
+
+}
+.modelos span{
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+.modelos p{
+    font-size: 16px;
+    color: var(--white);
+
+}
+/* preços */
+.preços{
+    height: 150px;
+    width: 296px;
+    background-color: var(--blacktotal);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid var(--white);
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.preços span{
+    font-size: 16px;
+    color: var(--white);
+    padding-bottom: 10px;
+
+}
+.preços h4{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.preços p{
+    font-size: 16px;
+    color: var(--white);
+    padding-bottom: 20px;
+}
+.preços button{
+    height: 35px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+
+    font-size: 14px;
+    color: var(--black);
+    background-color: #ffc772;
+    transition: all .2s;
+
+    cursor: pointer;
+}
+.preços button:hover{
+    background-color: #b84d01;
+}
+/* INTETRNET */
+.internet{
+    display: flex;
+    flex-direction: column;
+}
+.titulo-internet{
+    display: flex;
+    margin-left: 60px;
+}
+.titulo-internet h2{
+    font-size: 30px;
+    color: var(--white);
+    padding-bottom: 20px;
+}
+/* conatiner-internet */
+.container-internet{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 90%;
+    border: 1px solid var(--white);
+    background-color: var(--blacktotal);
+    border-radius: 8px;
+}
+/* INFO INTERNET */
+.info-internet{
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 20px; */
+    padding: 20px;
+}
+
+.info-internet h3{
+    font-size: 20px;
+    color: var(--white);
+}
+.info-internet p{
+    font-size: 16px;
+    color: var(--white);
+    padding-bottom: 20px;
+
+}
+.info-internet span{
+    font-size: 18px;
+    color: var(--white);
+}
+.info-internet h4{
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 900;
+    
+}
+.info-internet h5{
+    font-size: 16px;
+    color: var(--white);
+    padding-bottom: 40px;
+}
+/* BUTTOM */
+.info-internet button{
+    height: 40px;
+    width: 150px;
+
+    border: none;
+    border-radius: 50px;
+
+    font-size: 16px;
+    color: var(--black);
+    font-weight: 700;
+    background-color: #ffc772;
+    border: #ffc772;
+
+    cursor: pointer;
+    transition: all .2s;
+}
+.info-internet button:hover{
+    background-color: #b84d01;
+}
+/* IMAGENS  */
+.imagens-internet{
+    display: flex;
+    
+
+}
+.imagens-internet img{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
