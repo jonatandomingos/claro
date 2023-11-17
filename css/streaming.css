@@ -1,0 +1,111 @@
+
+.streamings{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blacktotal);
+    padding-bottom: 40px;
+}
+/* TITULO STREAMINGAS */
+.titulo-streamings{
+    display: flex;
+}
+.titulo-streamings h2{
+    display: flex;
+    font-size: 30px;
+    color: var(--white);
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+/* CONTAINER STREAMINGS */
+.container-streamings{
+    padding-left: 60px;
+
+}
+/* IMAGENS STREAMINGS */
+.imagens-streamings{
+    display: flex;
+}
+.imagens-streamings img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+/* TEXTO  */
+.texto{
+    display: flex;
+    padding: 30px;
+    background-color: #b41e13;
+    width: 266px;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.texto h3{
+    font-size: 25px;
+    color: var(--white);
+    font-weight: 700;
+}
+/* DOLAR */
+.dolar{
+    display: flex;
+    flex-direction: column;
+    width: 266px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid var(--white);
+    background-color: var(--blacktotal);
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+    border-bottom: none;
+}
+.dolar span{
+    color: var(--white);
+}
+.dolar h4{
+    font-size: 22px;
+    color: var(--white);
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+/* BUTTOM */
+.dolar button{
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+
+    font-size: 18px;
+    color: var(--black);
+    border: 1px solid #ffc772;
+    background-color: #ffc772;
+    cursor: pointer;
+    transition: all .2s;
+}
+.dolar button:hover{
+    background-color: #b84d01;
+}
+/* INFO */
+.info{
+    margin-left: 60px;
+    width: 266px;
+    padding: 20px;
+    background-color: var(--blacktotal);
+    border: 1px solid var(--white);
+    display: flex;
+    justify-content: space-between;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.info span{
+    font-size: 20px;
+    color: var(--white);
+}
+.info i{
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 700;
+
+}
