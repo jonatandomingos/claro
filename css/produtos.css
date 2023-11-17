@@ -1,0 +1,131 @@
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blacktotal);
+    padding-bottom: 100px;
+
+}
+/*  TITULO PRODUTOS */
+.titulo-produtos{
+    display: flex;
+    padding-left: 60px;
+}
+.titulo-produtos h2{
+    font-size: 30px;
+    color: var(--white);
+    padding-bottom: 20px;
+}
+/*  RECARGAS */
+.recargas{
+    display: flex;
+    column-gap: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-bottom: 2px solid var(--white);
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+.recargas a{
+    text-decoration: none;
+    padding-bottom: 40px;
+
+    font-size: 18px;
+    color: var(--white);
+
+}
+.recargas a:hover{
+
+    color: var(--white);
+    font-weight: 900;
+    padding-bottom: 10px;
+    border-bottom: 5px solid red;
+}
+
+/* INFO -RECARGAS */
+.info-recargas{
+    display: flex;
+    column-gap: 20px;
+    
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.info-recargas span{
+    display: flex;
+    flex-direction: column;
+}
+.prezao{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 40px;
+}
+.prezao span{
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 700;
+}
+.prezao p{
+    color: var(--white);
+}
+/* BUTTOM */
+.btn-saibamais{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+   margin-top: 40px;
+
+}
+.btn-saibamais button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 50px;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--white);
+    background-color: #da291c;
+    border: 1px solid #da291c;
+    cursor: pointer;
+    transition: all .2s;
+
+}
+.btn-saibamais button:hover{
+    background-color: #b41e13;
+}
+/* CONTRATOS */
+.contratos{
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+
+    border-radius: 8px;
+    height: 80px;
+   
+    border: 1px solid var(--white);
+}
+.titulos-contrato{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.titulos-contrato span{
+    font-size: 16px;
+    color: var(--white);
+}
+.icone-contrato{
+    display: flex;
+    align-items: center;
+}
+.icone-contrato i{
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 900;
+    
+    margin-left: -40px;
+}
