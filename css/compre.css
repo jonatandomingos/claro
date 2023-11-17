@@ -2,4 +2,28 @@
 .compre{
     display: flex;
     flex-direction: column;
+    background-color: var(--blacktotal);
+}
+.titulo-compre{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+
+}
+.titulo-compre h2{
+    font-size: 30px;
+    color: var(--white);
+
+}
+.compre p{
+    font-size: 20px;
+    color: var(--white);
+    padding-bottom: 20px;
+}
+/* imagens */
+.imagens-compre{
+    display: flex;
+    padding-left: 60px;
+    padding-bottom: 80px;
+
 }
