@@ -21,11 +21,11 @@ header{
 }
 .familia{
     padding-bottom: 10px;
-    border-bottom: 5px solid  #fb9c2d;
+    border-bottom: 5px solid  var(--btn-hover );
 }
 .navegation a:hover{
     padding-bottom: 10px;
-    border-bottom: 5px solid  #fb9c2d;
+    border-bottom: 5px solid  var(--btn-hover );
 }
 .navegation span:hover{
     text-decoration: underline;
@@ -74,7 +74,7 @@ header{
     border: none;
     outline: none;
     background-color: red;
-    color: white;
+    color: var(--white);
     font-size: 16px;
     font-weight: 700;
 }
@@ -103,16 +103,16 @@ header{
     color: var(--black);
 }
 .btn-contrate:hover{
-    border: 1px solid #b84d01;
+    border: 1px solid var(--btn-secunadry-hover);
     background-color: orange;
 }
 .btn-claro{
-    background-color: white;
+    background-color: var(--white);
     border: 1px solid var(--white);
-    color: #da291c;
+    color: var(--btns-red-claro);
 }
 .btn-claro:hover{
-    background-color: #b41e13;
-    border: 1px solid #b41e13;
+    background-color: var(--color-red);
+    border: 1px solid var(--color-red);
     color: var(--white);
 }

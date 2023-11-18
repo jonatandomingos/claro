@@ -136,7 +136,7 @@
     transition: all .2s;
 }
 .btns-plano button:hover{
-    background-color: var(--btn-secundary-hover);
+    background-color: var(--btn-secunadry-hover);
 }
 /* PASSAPORTE */
 .passaporte{
