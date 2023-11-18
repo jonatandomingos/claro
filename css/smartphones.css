@@ -109,13 +109,13 @@
 
     font-size: 14px;
     color: var(--black);
-    background-color: #ffc772;
+    background-color: var(--btn-yellow);
     transition: all .2s;
 
     cursor: pointer;
 }
 .preços button:hover{
-    background-color: #b84d01;
+    background-color: var(--btn-secunadry-hover);
 }
 /* INTETRNET */
 .internet{
@@ -185,14 +185,14 @@
     font-size: 16px;
     color: var(--black);
     font-weight: 700;
-    background-color: #ffc772;
-    border: #ffc772;
+    background-color: var(--btn-yellow);
+    border: var(--btn-yellow);
 
     cursor: pointer;
     transition: all .2s;
 }
 .info-internet button:hover{
-    background-color: #b84d01;
+    background-color: var(--btn-secunadry-hover);
 }
 /* IMAGENS  */
 .imagens-internet{

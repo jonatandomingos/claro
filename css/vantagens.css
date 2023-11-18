@@ -105,14 +105,14 @@
     font-size: 16px;
     color: var(--blacktotal);
     font-weight: 700;
-    border: 1px solid #ffc772;
+    border: 1px solid var(--btn-yellow);
 
-    background-color: #ffc772;
+    background-color: var(--btn-yellow);
     cursor: pointer;
     transition: all .2s;
 }
 .reais button:hover{
-    background-color: #b84d01;
+    background-color: var(--btn-secunadry-hover);
 }
 /* detalhes-plano */
 .detalhes-plano{

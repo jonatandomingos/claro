@@ -86,14 +86,14 @@
     font-size: 16px;
     font-weight: 600;
     color: var(--white);
-    background-color: #da291c;
-    border: 1px solid #da291c;
+    background-color: var(--btns-red-claro);
+    border: 1px solid var(--btns-red-claro);
     cursor: pointer;
     transition: all .2s;
 
 }
 .btn-saibamais button:hover{
-    background-color: #b41e13;
+    background-color: var(--btn-red);
 }
 /* CONTRATOS */
 .contratos{

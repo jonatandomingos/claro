@@ -33,7 +33,7 @@
 .texto{
     display: flex;
     padding: 30px;
-    background-color: #b41e13;
+    background-color: var(--btn-red);
     width: 266px;
 
     border-top-left-radius: 12px;
@@ -78,13 +78,13 @@
 
     font-size: 18px;
     color: var(--black);
-    border: 1px solid #ffc772;
-    background-color: #ffc772;
+    border: 1px solid var(--btn-yellow);
+    background-color: var(--btn-yellow);
     cursor: pointer;
     transition: all .2s;
 }
 .dolar button:hover{
-    background-color: #b84d01;
+    background-color: var(--btn-secunadry-hover);
 }
 /* INFO */
 .info{

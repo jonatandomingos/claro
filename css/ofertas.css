@@ -14,7 +14,7 @@
 }
 .texto-ofertas h2{
     font-size: 30px;
-    color: var(--white);
+    color: var(--var(--white));
     padding-bottom: 20px;
 }
 .containers{
@@ -29,7 +29,7 @@
     background-color: black;
     margin-left: 60px;
     border-radius: 10px;
-    border: 1px solid white;
+    border: 1px solid var(--white);
     margin-bottom: 40px;
 }
 .itens-ofertas{
@@ -41,16 +41,16 @@
 }
 .itens-ofertas i{
     font-size: 30px;
-    color: white;
+    color: var(--white);
 }
 .itens-ofertas h4{
     font-size: 20px;
-    color: white;
+    color: var(--white);
 
 
 }
 .itens-ofertas span{
-    color: white;
+    color: var(--white);
 }
 .itens-ofertas button{
     height: 40px;
@@ -58,15 +58,15 @@
     border: none;
     border-radius: 50px;
     font-size: 14px;
-    color: white;
+    color: var(--white);
     background-color: black;
-    border: 1px solid white;
+    border: 1px solid var(--white);
 
 }
 .sub-titulo h2{
     padding-left: 60px;
     font-size: 30px;
-    color: white;
+    color: var(--white);
 }
 
 /* conatiner 2 */
@@ -93,14 +93,14 @@
 .itens h4,
 .itens2 h4{
     font-size: 20px;
-    color: white;
+    color: var(--white);
     font-weight: 700;
 }
 .itens span,
 .itens2 span{
     font-size: 18px;
     font-weight: 300;
-    color: white;
+    color: var(--white);
 
 }
 /* redes sociais */
@@ -124,7 +124,7 @@
 .facebook i,
 .twitter i{
     font-size: 20px;
-    color: white;
+    color: var(--white);
 }
 /* preço */
 .preço{
@@ -133,18 +133,18 @@
 }
 .preço h5{
     font-size: 16px;
-    color: white;
+    color: var(--white);
     font-weight: 700;
 
 }
 .preço strong{
     font-size: 25px;
-    color: white;
+    color: var(--white);
     font-weight: 900;
 }
 .preço p{
     font-size: 16px;
-    color: white;
+    color: var(--white);
     font-weight: 700;
 }
 /* btn butttom */
@@ -157,7 +157,7 @@
     width: 150px;
     border: none;
     border-radius: 20px;
-    background-color: #ffc772;
+    background-color: var(--btn-yellow);
 
     font-size: 16px;
     color: black;
@@ -166,5 +166,5 @@
 }
 
 .btn-contratar button:hover{
-    background-color: #fb9c2d;
+    background-color: var(--btn-hover);
 }
