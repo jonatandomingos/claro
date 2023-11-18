@@ -1,0 +1,68 @@
+
+@import url(/css/global.css);
+
+.opçoes{
+    display: flex;
+    flex-direction: column;
+    
+}
+.itens-opçoes{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #c12911;
+    column-gap: 10px;
+    border-bottom: 1px solid orange;
+}
+.itens-opçoes a{
+    text-decoration: none;
+    color: var(--white);
+
+}
+.itens-opçoes i{
+    font-size: 20px;
+    color: var(--white);
+}
+.conatiner-opçoes{
+    display: flex;
+    background-color: #b41e13;
+}
+.acesso{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.acesso span{
+    font-size: 18px;
+    color: var(--white);
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.acesso a{
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: var(--white);
+    transition: all .2s;
+}
+.acesso a:hover{
+    text-decoration: underline;
+
+}
+.premio{
+    display: flex;
+}
+.itens-premio{
+    display: flex;
+    column-gap: 10px;
+
+}
+.itens-premio img{
+    height: 50px;
+    width: 50px;
+}
+
+.itens-premio span{
+    font-size: 14px;
+    color: var(--white);
+}
